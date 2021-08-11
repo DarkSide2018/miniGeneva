@@ -1,5 +1,5 @@
 {
-  "homepage": "https://DarkSide2018/github.io/miniGeneva",
+  "homepage": "https://DarkSide2018.github.io/miniGeneva",
   "name": "simple-light-react",
   "version": "0.1.0",
   "private": true,
@@ -27,7 +27,7 @@
     "web-vitals": "^1.1.1"
   },
   "scripts": {
-    "start": "node server.js",
+    "start": "craco start",
     "build": "craco build",
     "test": "craco test",
     "eject": "craco eject",
