@@ -2,10 +2,10 @@ import React, {useState} from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle';
 import backGroundImageMain from '../images/backGround.svg';
-import skin1 from '../images/skin/skin1.png';
-import skin2 from '../images/skin/skin2.png';
-import skin3 from '../images/skin/skin3.png';
-import skin4 from '../images/skin/skin4.png';
+import skin1 from '../images/skin/image1.svg';
+import skin2 from '../images/skin/image2.svg';
+import skin3 from '../images/skin/image3.svg';
+import skin4 from '../images/skin/image4.svg';
 import {Col, Container, Row} from "react-bootstrap";
 
 function HeroHome() {
@@ -18,7 +18,10 @@ function HeroHome() {
                     {/* Section header */}
                     <div className="text-center pb-12 md:pb-16" style={{
                         backgroundImage: `url(${backGroundImageMain})`,
-                        backgroundSize: "cover",
+                        backgroundSize: "100%",
+                        backgroundRepeat: "no-repeat",
+                        height:"300px",
+                        width:"100%"
                     }
                     }>
                         <p className="text-3xl md:text-3xl font-extrabold leading-tighter tracking-tighter left-side"
@@ -39,13 +42,16 @@ function HeroHome() {
                         <Container>
                             <Row>
                                 <Col>
+
+                                </Col>
+                                <Col>
                                     <div className="text-center pb-12 md:pb-8" style={{
                                         backgroundImage: `url(${skin1})`,
                                         backgroundSize: "100%",
                                         position: "absolute",
                                         color: "white",
-                                        height: "50px",
-                                        width: "50px",
+                                        height: "75px",
+                                        width: "75px",
                                         backgroundRepeat: "no-repeat"
                                     }
                                     }>
@@ -57,8 +63,8 @@ function HeroHome() {
                                         backgroundSize: "100%",
                                         position: "absolute",
                                         color: "white",
-                                        height: "50px",
-                                        width: "50px",
+                                        height: "75px",
+                                        width: "75px",
                                         backgroundRepeat: "no-repeat"
                                     }
                                     }>
@@ -70,8 +76,8 @@ function HeroHome() {
                                         backgroundSize: "100%",
                                         position: "absolute",
                                         color: "white",
-                                        height: "50px",
-                                        width: "50px",
+                                        height: "75px",
+                                        width: "75px",
                                         backgroundRepeat: "no-repeat"
                                     }
                                     }>
@@ -86,8 +92,8 @@ function HeroHome() {
                                         position: "absolute",
                                         color: "white",
                                         backgroundRepeat: "no-repeat",
-                                        width: "50px",
-                                        height: "50px"
+                                        height: "75px",
+                                        width: "75px",
                                     }
                                     }>
                                     </div>

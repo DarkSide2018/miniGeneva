@@ -27,6 +27,53 @@
 .left-side {
     text-align: left;
 }
+.bg-color-main-rg{
+    background-color: rgb(242, 242, 242);
+}
+.bg-color-main-rg-image-div{
+    border-radius: 15px 15px 15px 15px;
+    background-color: rgb(226, 233, 235);
+    width: 100%;
+}
+.rg-div-size{
+    height: 100px;
+  background-color: rgb(255, 255, 255);
+}
+.font14{
+    font-size: 14px;
+    font-style: italic;
+    font-weight:bold;
+}
+.font18{
+    font-size: 18px;
+    color: rgb(66, 70, 121);
+    font-weight:bold;
+    border-bottom: solid;
+}
+.div30LeftRight{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.div30LeftRightTopBottom{
+    padding: 30px;
+}
+.divTrans{
+    -o-transition: all .5s;
+    -webkit-transition: all .25s;
+    animation: showBlock 2s linear both;
+    transition: all .25s;
+}
+
+@keyframes showBlock {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
 // AOS styles
 $aos-distance: 10px;
 @import 'node_modules/aos/src/sass/aos.scss';
