@@ -11,7 +11,6 @@ import AOS from 'aos';
 import { focusHandling } from 'cruip-js-toolkit';
 
 import Home from './pages/Home';
-
 import ResetPassword from './pages/ResetPassword';
 
 function App() {
