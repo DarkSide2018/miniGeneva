@@ -1,5 +1,6 @@
 {
   "homepage": "https://DarkSide2018.github.io/miniGeneva",
+  "proxy": "http://localhost:5000",
   "name": "simple-light-react",
   "version": "0.1.0",
   "private": true,
